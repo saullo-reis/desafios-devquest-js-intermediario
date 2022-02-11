@@ -1,0 +1,134 @@
+
+.background-photo1.inactive{
+    display:none
+}
+
+.background-photo2.inactive{
+    display:none
+}
+
+.background-photo3.inactive{
+    display:none
+}
+
+.background-photo4.inactive{
+    display:none
+}
+
+.background-photo1.active{
+    background: url(../src/4.jpg) center center no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.background-photo2.active{
+    background: url(../src/1.jpg) center center no-repeat;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.background-photo3.active{
+    background: url(../src/2.jpg);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.background-photo4.active{
+    background: url(../src/3.jpg);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+button{
+    border:none;
+    background: none;
+
+}
+button img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.container .container-arrows{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+}
+
+#arrow-left img{
+    position:relative;
+    transform: scaleX(-1);
+    margin-left: 40px;
+}
+
+#arrow-right img{
+    position: relative;
+    margin-right:40px   
+}
+
+.opacity {
+    opacity: 40%;
+}
+
+.text h2,p,a{
+    margin: 40px 0 ;
+}
+
+.text1{
+    display:block;
+    background-color: #fff;
+    margin-left: 150px;
+    padding: 30px;
+    width: 320px;
+    height: 400px;
+}
+
+ .text2{
+    display:block;
+    background-color: #fff;
+    margin-left: 150px;
+    padding: 30px;
+    width: 320px;
+    height: 400px;
+}
+
+.text3{
+    display:block;
+    background-color: #fff;
+    margin-left: 150px;
+    padding: 30px;
+    width: 320px;
+    height: 400px;
+}
+
+.text4{
+    display:block;
+    background-color: #fff;
+    margin-left: 150px;
+    padding: 30px;
+    width: 320px;
+    height: 400px;
+}
+
+.text1 a{
+    color:#C50000;
+}
+.text2 a{
+    color:#D9DD10;
+}
+.text3 .text a{
+    color:#A63A17;
+}
+.text4 a{
+    color:#10ACDD;
+}
